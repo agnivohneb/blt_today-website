@@ -50,7 +50,7 @@
   <body>
   	
   	<!-- Start Header -->
-	<header id="mu-hero" class="" role="banner">
+	<header id="mu-hero">
 		<!-- Start menu  -->
 		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
 		  	<div class="container">
@@ -122,7 +122,7 @@
 	<!-- End Header -->
 	
 	<!-- Start main content -->
-	<main role="main">
+	<main>
 		<!-- Start About -->
 		<section id="mu-about">
 			<div class="container">
@@ -226,7 +226,7 @@
 
 					<div class="col-md-6">
 						<div class="mu-venue-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d907.1113002476983!2d-63.71224109938241!3d44.64588629420394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd47e1dd09ca9dee!2sD+%26+Jo&#39;s+Country+Market!5e0!3m2!1sen!2sca!4v1522636947323" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d907.1113002476983!2d-63.71224109938241!3d44.64588629420394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd47e1dd09ca9dee!2sD+%26+Jo&#39;s+Country+Market!5e0!3m2!1sen!2sca!4v1522636947323" style="border:0; width:100%; height:450px;" allowfullscreen></iframe>
 						</div>
 					</div>
 
@@ -645,7 +645,7 @@
 			
 			
 	<!-- Start footer -->
-	<footer id="mu-footer" role="contentinfo">
+	<footer id="mu-footer">
 			<div class="container">
 				<div class="mu-footer-area">
 					<div class="mu-footer-top">
