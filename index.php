@@ -130,7 +130,7 @@
 										<h2>About The Association</h2>
 										<p>Our mission statement is <em>"Community today for tomorrow"</em>. To us that means building a strong community now, in the present, to make us stronger for whatever comes tomorrow. Without the community spirit we don't engage with the people we live near. Without engagement, we just live here.</p>
 
-										<p>In 2015, five local residents volunteered their time to plan the very first BLT Canada Day Celebration. With help of sponsorships, they were able to provide everything at the event for free to the community, meaning the community could enjoy Canada Day without the usual costs to attend any celebration in Halifax. The next year these five residents formed the group BLT Today and registered the name.</p>
+										<p>In 2015, six local residents volunteered their time to plan the very first BLT Canada Day Celebration. With help of sponsorships, they were able to provide everything at the event for free to the community, meaning the community could enjoy Canada Day without the usual costs to attend any celebration in Halifax. The next year these six residents formed the group BLT Today and registered the name.</p>
 
 										<p>Now the BLT Today core group continues to plan and put on Canada Day Celebrations each year, and with help from sponsors we continue to provide this function free to the community. A few sub-comities have formed and dissolved over the years for other events like an Easter Hunt and Family Day ice skating.</p>
 									</div>
@@ -224,7 +224,7 @@
 							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
 							<h3>D & Jo's Country Market</h3>
 							<h4>1823 St Margarets Bay Rd, Timberlea, NS, B3T 1B8, Canada</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis incidunt accusantium porro amet repellendus hic corporis fugiat officiis, sequi iste distinctio possimus dignissimos, veniam quae delectus. Fuga, modi, perferendis!</p>
+							<p>Darren and Joanne opened the store in 2012 and have been big sponsors of our Canada Day event since 2015. They are community driven and are providers of fresh fruits and vegetables, local meats and dairy products, baked goods and yummy ice cream.</p>
 						</div>
 					</div>
 
