@@ -154,7 +154,7 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title">Schedule Detail</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+								<p>Our full schedule for the day.</p>
 							</div>
 
 							<div class="mu-schedule-content-area">
@@ -200,7 +200,7 @@
 								</div>
 
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
