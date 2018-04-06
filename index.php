@@ -241,7 +241,7 @@
 						<div class="mu-speakers-area">
 
 							<div class="mu-title-area">
-								<h2 class="mu-title">Our Speakers</h2>
+								<h2 class="mu-title">Our Sponsors 1</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
 							</div>
 
@@ -392,7 +392,7 @@
 						<div class="mu-sponsors-area">
 							
 							<div class="mu-title-area">
-								<h2 class="mu-title">Our Sponsors</h2>
+								<h2 class="mu-title">Our Sponsors 2</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
 							</div>
 							
