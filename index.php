@@ -233,7 +233,7 @@
 					<div class="col-md-6">
 						<div class="mu-venue-address">
 							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
-							<h3>D & Jo's Country Market</h3>
+							<h3>D &amp; Jo's Country Market</h3>
 							<h4>1823 St Margarets Bay Rd, Timberlea, NS, B3T 1B8, Canada</h4>
 							<p>Darren and Joanne opened the store in 2012 and have been big sponsors of our Canada Day event since 2015. They are community driven and are providers of fresh fruits and vegetables, local meats and dairy products, baked goods and yummy ice cream.</p>
 						</div>
