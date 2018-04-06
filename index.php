@@ -492,7 +492,7 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title">FAQ</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
+								<p>The most common questions we get and you are probably wondering.</p>
 							</div>
 
 							<div class="mu-faq-content">
@@ -503,13 +503,13 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-							                <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
+							                <span class="fa fa-angle-down"></span> What will this cost?
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseOne" class="panel-collapse collapse in">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							              Nothing... That's right nothing! Our Canada Day celebrations have always been free for the community. We find sponsors willing to pick up the bill so you don't have to. If you go downtown you are likely to pay for parking, food, merch... just to watch 5 minutes of lights in the sky. Add to that the long commute back as everyone tries to leave the city at the same time and some cranky kids. So <a href="#mu-speakers">thank the sponsors</a> for making your Canada Day a little less stressful.
 							            </div>
 							          </div>
 							        </div>
@@ -518,13 +518,13 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							                <span class="fa fa-angle-up"></span> Will there be food?
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseTwo" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							              Of course! Pancakes and sausages for our breakfast event and hot dogs and ice cream for our evening event. And it's still free (while supplies last).
 							            </div>
 							          </div>
 							        </div>
@@ -533,13 +533,13 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
+							                <span class="fa fa-angle-up"></span> Is there parking?
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseThree" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							              We always try to encourage using human powered or public transportation. Parking is not available at the country market. There are locations nearby to park. Ultramar and Tim Hortons (across the road) have asked that nobody park on their property if attending our event. Please respect others property and follow local laws/signs. Lock your doors and hide or remove any valuables from your vehicle. BLT Today and it's affiliates is not responsible for stolen/damaged property.
 							            </div>
 							          </div>
 							        </div>
