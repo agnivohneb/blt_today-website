@@ -605,7 +605,7 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-heading-title">Contact Us</h2>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+								<p>Have a question, want to help, or just wanna say hi.</p>
 							</div>
 
 							<!-- Start Contact Content -->
@@ -615,13 +615,16 @@
 								<div class="col-md-12">
 									<div class="mu-contact-form-area">
 										<div id="form-messages"></div>
-											<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+											<form id="ajax-contact" method="post" action="mail/contactmail.php" class="mu-contact-form">
 												<div class="form-group">                
 													<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
 												</div>
-												<div class="form-group">                
+												<div class="form-group">
 													<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-												</div>              
+												</div>
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="Subject" id="subject" name="subject" required>
+												</div>
 												<div class="form-group">
 													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
 												</div>
@@ -640,10 +643,10 @@
 		<!-- End Contact -->
 
 	</main>
-	
-	<!-- End main content -->	
-			
-			
+
+	<!-- End main content -->
+
+
 	<!-- Start footer -->
 	<footer id="mu-footer">
 			<div class="container">
