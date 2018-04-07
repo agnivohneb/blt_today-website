@@ -30,7 +30,7 @@
 
 
 	jQuery(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 150) {
+    if ($(window).scrollTop() > 0) {
         $('.mu-navbar').addClass('mu-nav-show');
         
 	    } else {
