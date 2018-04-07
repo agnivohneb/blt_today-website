@@ -628,6 +628,7 @@
 												<div class="form-group">
 													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
 												</div>
+												<div class="g-recaptcha" data-sitekey="6LcROBkTAAAAAHtFJb_MxYAlRdO2Xe3s-_VajuZE"></div>
 												<button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
 								            </form>
 										</div>
@@ -679,6 +680,8 @@
     <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
     <!-- Ajax contact form  -->
     <script type="text/javascript" src="assets/js/app.js"></script>
+	<!-- ReCaptcha -->
+	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 
