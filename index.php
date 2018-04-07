@@ -628,7 +628,7 @@
 												<div class="form-group">
 													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
 												</div>
-												<div class="g-recaptcha" data-sitekey="6LcROBkTAAAAAHtFJb_MxYAlRdO2Xe3s-_VajuZE"></div>
+												<div class="g-recaptcha form-group" data-sitekey="6LcROBkTAAAAAHtFJb_MxYAlRdO2Xe3s-_VajuZE"></div>
 												<button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
 								            </form>
 										</div>
