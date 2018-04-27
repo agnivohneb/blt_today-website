@@ -710,6 +710,10 @@ button:focus {
 	font-size: 12px;
 }
 
+.mu-event-timeline ul li .mu-single-event a {
+	color: #3fc35f;
+}
+
 
 /*--------------------*/
 /* SPEAKERS */
