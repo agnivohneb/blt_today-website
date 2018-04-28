@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// Validate ReCaptcha
 	if (array_key_exists('g-recaptcha-response', $_POST)) {
 		include 'recaptchasecret.php';
-		$recaptcha = new ReCaptcha($secret);
+		$recaptcha = new ReCaptcha($reCaptchaSecret);
 		$resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 		if (!$resp->isSuccess()){
 			// Set a 400 (bad request) response code and exit.
