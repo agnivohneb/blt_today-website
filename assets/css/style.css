@@ -448,11 +448,11 @@ button:focus {
 
 
 #mu-video {
-	/*background-image: url("../images/about-video-bg.jpg");
+	background-image: url("../images/about-video-bg.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
-	background-size: cover;*/
+	background-size: cover;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -461,7 +461,7 @@ button:focus {
 .mu-video-overlay {
 	display: inline;
 	float: left;
-	/*opacity: 0.85;*/
+	opacity: 0.85;
 	width: 100%;
 }
 
