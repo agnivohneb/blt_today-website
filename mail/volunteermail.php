@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 	if (array_key_exists('volunteer-type', $_POST)) {
         //Limit length and strip HTML tags
-        $query .= "\nVolunteer Interest: " . substr(strip_tags($_POST['volunteer-type']), 0, 16384);
+        $query .= "\nVolunteer Interest: " . substr(strip_tags(implode(", ",$_POST['volunteer-type']);), 0, 16384);
     }
     if (array_key_exists('message', $_POST)) {
         //Limit length and strip HTML tags
