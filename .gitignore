@@ -1,2 +1,3 @@
-vendor
-composer.lock
+mailsetup.php
+recaptchasecret.php
+desktop.ini

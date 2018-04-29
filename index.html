@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-74087499-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-74087499-1');
+	</script>
+	
     <title>Canada Day Celebrations | BLT Today: Beechville - Lakeside - Timberlea Community Involvement</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
@@ -18,7 +29,7 @@
     <link id="switcher" href="assets/css/theme-color/green-theme.css" rel="stylesheet">
 
     <!-- Main Style -->
-    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 
     <!-- Fonts -->
 
@@ -39,7 +50,7 @@
   <body>
   	
   	<!-- Start Header -->
-	<header id="mu-hero" class="" role="banner">
+	<header id="mu-hero">
 		<!-- Start menu  -->
 		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
 		  	<div class="container">
@@ -62,11 +73,11 @@
 			      	<ul class="nav navbar-nav mu-menu navbar-right">
 			      		<li><a href="#mu-hero">Home</a></li>
 				        <li><a href="#mu-about">About Us</a></li>
+						<li><a href="#mu-video">Volunteer</a></li>
 				        <li><a href="#mu-schedule">Schedule</a></li>
-			            <li><a href="#mu-speakers">Speakers</a></li>
-			            <li><a href="#mu-pricing">Price</a></li>
-			            <li><a href="#mu-register">Register</a></li>
-			            <li><a href="#mu-sponsors">Sponsors</a></li>
+						<li><a href="#mu-venue">Venue</a></li>
+			            <li><a href="#mu-speakers">Sponsors</a></li>
+						<li><a href="#mu-faq">FAQ</a></li>
 			            <li><a href="#mu-contact">Contact</a></li>
 			      	</ul>
 			    </div><!-- /.navbar-collapse -->
@@ -85,7 +96,7 @@
 							<!-- text based logo -->
 							<!--<a class="mu-logo" href="#">BLT Today</a>-->
 							<!-- image based logo -->
-							<a class="mu-logo" href="#"><img src="assets/images/logo.png" alt="logo img"></a>
+							<a class="" href="#"><img src="assets/images/BLT_TODAY-horizontal-white-trans-500w.png" alt="logo img"></a>
 						</div>
 						<!-- End center Logo -->
 
@@ -112,7 +123,7 @@
 	<!-- End Header -->
 	
 	<!-- Start main content -->
-	<main role="main">
+	<main>		
 		<!-- Start About -->
 		<section id="mu-about">
 			<div class="container">
@@ -123,17 +134,17 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<img class="" src="assets/images/about.jpg" alt="Men Speaker">
+										<img class="" src="assets/images/about.jpg" alt="BLT Today group">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="mu-about-right">
 										<h2>About The Association</h2>
-										<p>Our mission statement is <em>"Community today for tomorrow"</em>. To us that means building a strong community now, in the present, to make us stronger for whatever comes tomorrow. Without the community spirit we don't engage with the people we live near. Without engagement, we just live here.</p>
+										<p>Our mission statement is <em>"Community today for tomorrow"</em>. To us that means building a strong community now, in the present, to make us stronger for whatever comes tomorrow. Without the community spirit, we don't engage with the people we live near. Without engagement, we just live here.</p>
 
-										<p>BLT Today felt there was a need to bring our wide spanning community together, and so began our Canada Day celebrations.</p>
+										<p>In 2015, six local residents volunteered their time to plan the very first BLT Canada Day Celebration. With help of sponsorships, they were able to provide everything at the event for free to the community, meaning the community could enjoy Canada Day without the usual costs to attend any celebration in Halifax. The next year these six residents formed the group BLT Today and registered the name.</p>
 
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perspiciatis magni omnis excepturi, cumque reiciendis.</p>
+										<p>Now the BLT Today core group continues to plan and put on Canada Day Celebrations each year, and with help from sponsors we continue to provide this function free to the community. A few sub-comities have formed over the years for other events like the Tree Lighting.</p>
 									</div>
 								</div>
 							</div>
@@ -145,6 +156,25 @@
 			</div>
 		</section>
 		<!-- End About -->
+		
+		<!-- Start Volunteers -->
+		<section id="mu-video">
+			<div class="mu-video-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-video-area">
+								<h2>Volunteers Wanted</h2>
+								<p>&nbsp;</p>
+								<p>We need volunteers to help setup and run the stations. The work is easy and fun. You also get a t-shirt for helping us out. Click the button below to get started.</p>
+								<p>&nbsp;</p>
+								<p><a href="volunteer.html" class="mu-primary-btn">Volunteer Now</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<!-- Start Schedule  -->
 		<section id="mu-schedule">
@@ -155,16 +185,13 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title">Schedule Detail</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+								<p>Our full schedule for the day.</p>
 							</div>
 
 							<div class="mu-schedule-content-area">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
 								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 July, 2018</a></li>
-								    <!--<li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>-->
-								    <!--<li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li>-->
-								    
 								</ul>
 								
 								<!-- Tab panes -->
@@ -174,25 +201,32 @@
 								    		<li>
 								    			<div class="mu-single-event">
 													<img src="assets/images/schedule-breakfast.jpg" alt="event speaker">
-								    				<p class="mu-event-time">8.00 AM - 10.00 AM</p>
-								    				<h3>Breakfast</h3>
-													<span>@ Location</span>
+								    				<p class="mu-event-time">8.30 AM - 10.30 AM</p>
+								    				<h3>BLT Canada Day Breakfast</h3>
+													<p>@ <a href="https://goo.gl/maps/HSVEHwgWur52">Lakeside Legion &num;156</a></p>
+													<p><span>Join us in the morning for a free breakfast, hosted by the Lakeside Legion &num;156. We will be serving pancakes topped with syrup and strawberries, as well as sausages.</span></p>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/schedule-festivities.jpg" alt="event speaker">
-								    				<p class="mu-event-time">5.00 PM</p>
-								    				<h3>Festivities Begin</h3>
-								    				<span>@ Location</span>
+								    				<p class="mu-event-time">6.30 PM - 9.30 PM</p>
+								    				<h3>BLT Canada Day Carnival</h3>
+													<p>&nbsp;</p>
+								    				<p><span>Here is what you can expect this year from this free event:<br />
+													- Band: Monkeys Uncle<br />
+													- Free food: Hot-dogs, cotton candy, popcorn, ice cream<br />
+													- Fun games, bouncy castles, dunk tank<br />
+													- Jimmy J: Stilt walker and balloon animal maker<br />
+													- Minions Mascots</span></p>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">9.00 PM</p>
+								    				<img src="assets/images/fireworks.jpg" alt="event speaker">
+								    				<p class="mu-event-time">9.40 PM</p>
 								    				<h3>Fireworks</h3>
-								    				<span>@ Location</span>
+								    				<span><br />When it gets dark enough we will start the fireworks.</span>
 								    			</div>
 								    		</li>
 								    	</ul>
@@ -201,13 +235,41 @@
 								</div>
 
 							</div>
-							
+
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- End Schedule -->
+
+		<!-- Start Venue -->
+		<section id="mu-venue">
+			<div class="mu-venue-area">
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="mu-venue-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d907.1113002476983!2d-63.71224109938241!3d44.64588629420394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd47e1dd09ca9dee!2sD+%26+Jo&#39;s+Country+Market!5e0!3m2!1sen!2sca!4v1522636947323" style="border:0; width:100%; height:550px;" allowfullscreen></iframe>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="mu-venue-address">
+							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+							<h3>Timberlea Dental Centre</h3>
+							<h4>1817 St Margarets Bay Rd, Timberlea, NS, B3T 1B8, Canada</h4>
+							<p>The team at Timberlea Dental Centre have been providing us with tons of support since our first Canada Day. They are another community driven business in the area with amazing passion for their work.</p>
+							<h3>D &amp; Jo's Country Market</h3>
+							<h4>1823 St Margarets Bay Rd, Timberlea, NS, B3T 1B8, Canada</h4>
+							<p>Darren and Joanne opened the store in 2012 and have been big sponsors of our Canada Day event since 2015. They are community driven and are providers of fresh fruits and vegetables, local meats and dairy products, baked goods and yummy ice cream.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Venue -->
 
 		<!-- Start Speakers -->
 		<section id="mu-speakers">
@@ -217,8 +279,7 @@
 						<div class="mu-speakers-area">
 
 							<div class="mu-title-area">
-								<h2 class="mu-title">Our Speakers</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
+								<h2 class="mu-title">Platinum Sponsors</h2>
 							</div>
 
 							<!-- Start Speakers Content -->
@@ -230,12 +291,9 @@
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-1.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
-											<h3>Karl Groves</h3>
-											<p>Digital Artist</p>
+											<h3>D & Jo's Country Market</h3>
 											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="https://www.facebook.com/CountryMarketTimberlea/"><i class="fa fa-facebook"></i></a></li>
 											</ul>
 										</div>
 									</div>
@@ -245,12 +303,11 @@
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-2.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
-											<h3>Sarah Dransner</h3>
-											<p>Business Consultant</p>
+											<h3>Timberlea Dental Centre</h3>
 											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="https://www.facebook.com/timberlea.dental/"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="https://www.instagram.com/timberleadental/"><i class="fa fa-instagram"></i></a></li>
+												<li><a href="http://www.timberleadental.ca/"><i class="fa fa-globe"></i></a></li>
 											</ul>
 										</div>
 									</div>
@@ -261,12 +318,11 @@
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-3.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
-											<h3>Ned Stark</h3>
-											<p>UI/UX Specialist</p>
+											<h3>Affordable Fuels</h3>
 											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="https://www.facebook.com/affordablefuels.ca/"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="https://twitter.com/AffordableFuels"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="https://www.affordablefuels.ca/"><i class="fa fa-globe"></i></a></li>
 											</ul>
 										</div>
 									</div>
@@ -277,78 +333,15 @@
 									<div class="mu-single-speakers">
 										<img src="assets/images/speaker-4.jpg" alt="speaker img">
 										<div class="mu-single-speakers-info">
-											<h3>Michaela Lehr </h3>
-											<p>Digital Marketer</p>
+											<h3>Ian Angus Real Estate</h3>
 											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="https://www.facebook.com/IanAngusHalifaxRealEstate/"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="http://www.ianangus.ca/"><i class="fa fa-globe"></i></a></li>
 											</ul>
 										</div>
 									</div>
 									<!-- End single speaker -->
 
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-1.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Karl Groves</h3>
-											<p>Digital Artist</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-2.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Sarah Dransner</h3>
-											<p>Business Consultant</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-3.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Ned Stark</h3>
-											<p>UI/UX Specialist</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
-
-
-									<!-- Start single speaker -->
-									<div class="mu-single-speakers">
-										<img src="assets/images/speaker-4.jpg" alt="speaker img">
-										<div class="mu-single-speakers-info">
-											<h3>Michaela Lehr </h3>
-											<p>Digital Marketer</p>
-											<ul class="mu-single-speakers-social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-											</ul>
-										</div>
-									</div>
-									<!-- End single speaker -->
 								</div>
 							</div>
 							<!-- End Speakers Content -->
@@ -359,278 +352,7 @@
 			</div>
 		</section>
 		<!-- End Speakers -->
-
-		<!-- Start Venue -->
-		<section id="mu-venue">
-			<div class="mu-venue-area">
-				<div class="row">
-
-					<div class="col-md-6">
-						<div class="mu-venue-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d907.1113002476983!2d-63.71224109938241!3d44.64588629420394!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd47e1dd09ca9dee!2sD+%26+Jo&#39;s+Country+Market!5e0!3m2!1sen!2sca!4v1522636947323" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="mu-venue-address">
-							<h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
-							<h3>D & Jo's Country Market</h3>
-							<h4>1823 St Margarets Bay Rd, Timberlea, NS, B3T 1B8, Canada</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem reiciendis incidunt accusantium porro amet repellendus hic corporis fugiat officiis, sequi iste distinctio possimus dignissimos, veniam quae delectus. Fuga, modi, perferendis!</p>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section>
-		<!-- End Venue -->
-
-		<!-- Start Pricing  -->
-		<section id="mu-pricing">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-pricing-area">
-							
-							<div class="mu-title-area">
-								<h2 class="mu-title">Pricing plans</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-							</div>
-							
-							<div class="mu-pricing-conten">
-								<div class="row">
-									
-									<!-- single price item -->
-									<div class="col-md-4">
-										<div class="mu-single-price">
-
-											<div class="mu-single-price-head">
-												<span class="mu-currency">$</span>
-												<span class="mu-rate">12</span>
-												<span class="mu-time">/all days</span>
-											</div>
-											<h3 class="mu-price-title">BASIC</h3>
-											<ul>
-												<li>Basic Class Ticket</li>
-												<li>Access to all sessions</li>
-												<li>Free Breakfast</li>
-											</ul>
-											<a class="mu-register-btn" href="#"> Register Now</a>
-										</div>
-									</div>
-									<!-- / single price item -->
-
-									<!-- single price item -->
-									<div class="col-md-4">
-										<div class="mu-single-price mu-popular-price">
-											<span class="mu-price-tag">Popular</span>
-											<div class="mu-single-price-head">
-												<span class="mu-currency">$</span>
-												<span class="mu-rate">22</span>
-												<span class="mu-time">/all days</span>
-											</div>
-											<h3 class="mu-price-title">STANDARD</h3>
-											<ul>
-												<li>Basic Class Ticket</li>
-												<li>Access to all sessions</li>
-												<li>Free Breakfast</li>
-											</ul>
-											<a class="mu-register-btn" href="#"> Register Now</a>
-										</div>
-									</div>
-									<!-- / single price item -->
-
-									<!-- single price item -->
-									<div class="col-md-4">
-										<div class="mu-single-price">
-
-											<div class="mu-single-price-head">
-												<span class="mu-currency">$</span>
-												<span class="mu-rate">45</span>
-												<span class="mu-time">/all days</span>
-											</div>
-											<h3 class="mu-price-title">PREMIUM</h3>
-											<ul>
-												<li>Basic Class Ticket</li>
-												<li>Access to all sessions</li>
-												<li>Free Breakfast</li>
-											</ul>
-											<a class="mu-register-btn" href="#"> Register Now</a>
-										</div>
-									</div>
-									<!-- / single price item -->
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Pricing -->
-
-		<!-- Start Register  -->
-		<section id="mu-register">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-register-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title">Register Form</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-							</div>
-
-							<div class="mu-register-content">
-								<form class="mu-register-form">
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" placeholder="Your Full Name" id="name" name="name" required="">
-											</div>
-										</div>
-
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="email" class="form-control" placeholder="Enter Your Email" id="email" name="email" required="">
-											</div>     
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-md-6">
-											<div class="form-group">                
-												<input type="text" class="form-control" placeholder="Your Phone Number" id="telephone" name="telephone" required="">
-											</div>
-										</div>
-										<div class="col-md-6">
-											
-										<div class="form-group"> 
-											<select class="form-control" name="ticket" id="ticket">
-												<option value="0">Basic ($12)</option>
-												<option value="1">Standard ($22)</option>
-												<option value="2">Premium ($45)</option>
-											</select>
-										</div>      
-										</div>
-									</div>
-
-									<button type="submit" class="mu-reg-submit-btn">SUBMIT</button>
-
-					            </form>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Register -->
-
-		<!-- Start FAQ -->
-		<section id="mu-faq">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-faq-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title">FAQ</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
-							</div>
-
-							<div class="mu-faq-content">
-
-								<div class="panel-group" id="accordion">
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-							                <span class="fa fa-angle-down"></span> Lorem ipsum dolor sit amet.
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseOne" class="panel-collapse collapse in">
-							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
-							          </div>
-							        </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseTwo" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
-							          </div>
-							        </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseThree" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
-							          </div>
-							        </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur adipisicing. 
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseFour" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
-							          </div>
-							        </div>
-
-							        <div class="panel panel-default">
-							          <div class="panel-heading">
-							            <h4 class="panel-title">
-							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-							                <span class="fa fa-angle-up"></span> Lorem ipsum dolor sit amet, consectetur. 
-							              </a>
-							            </h4>
-							          </div>
-							          <div id="collapseFive" class="panel-collapse collapse">
-							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-							            </div>
-							          </div>
-							        </div>
-
-
-							    </div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End FAQ -->
-
+		
 		<!-- Start Sponsors -->
 		<section id="mu-sponsors">
 			<div class="container">
@@ -639,8 +361,7 @@
 						<div class="mu-sponsors-area">
 							
 							<div class="mu-title-area">
-								<h2 class="mu-title">Our Sponsors</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint assumenda ut molestias doloremque ipsam, fugit laborum totam, pariatur est cumque at, repudiandae officia ex dolores quas minus optio, iusto soluta?</p>
+								<h2 class="mu-title">General Sponsors</h2>
 							</div>
 							
 							<!-- Start spnonsors brand logo -->
@@ -649,73 +370,7 @@
 								
 									<div class="col-md-2 col-sm-4 col-xs-4">
 										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-4.png" alt="Brand Logo">
-										</div>
-									</div>
-
-										<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-5.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-6.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-7.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-8.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-9.png" alt="Brand Logo">
-										</div>
-									</div>
-
-										<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
-										</div>
-									</div>
-
-									<div class="col-md-2 col-sm-4 col-xs-4">
-										<div class="mu-sponsors-single">
-											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
+											<a href="https://www.facebook.com/LakesideLegion156/"><img src="assets/images/sponsor-logo-1.png" alt="Lakside Legion #156"></a>
 										</div>
 									</div>
 
@@ -730,6 +385,76 @@
 		</section>
 		<!-- End Sponsors -->
 
+		<!-- Start FAQ -->
+		<section id="mu-faq">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-faq-area">
+
+							<div class="mu-title-area">
+								<h2 class="mu-title">FAQ</h2>
+								<p>The most common questions we get and you are probably thinking. Did we not answer it here? <a href="#mu-contact">Then send us a message</a>.</p>
+							</div>
+
+							<div class="mu-faq-content">
+
+								<div class="panel-group" id="accordion">
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
+							                <span class="fa fa-angle-down"></span> What will this cost?
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseOne" class="panel-collapse collapse in">
+							            <div class="panel-body">
+							              Nothing... That's right nothing! Our Canada Day celebrations have always been free for the community. We find sponsors willing to pick up the bill so you don't have to. If you go downtown you are likely to pay for parking, food, merch... just to watch 5 minutes of lights in the sky. Add to that the long commute back as everyone tries to leave the city at the same time and some cranky kids. So <a href="#mu-speakers" style="text-decoration: underline;">thank the sponsors</a> for making your Canada Day a little less stressful.
+							            </div>
+							          </div>
+							        </div>
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+							                <span class="fa fa-angle-up"></span> Will there be food?
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseTwo" class="panel-collapse collapse">
+							            <div class="panel-body">
+							              Of course! Pancakes and sausages for our breakfast event and hot dogs, popcorn, cotton candy, and ice cream for our evening event. And it's still free (while supplies last).
+							            </div>
+							          </div>
+							        </div>
+
+							        <div class="panel panel-default">
+							          <div class="panel-heading">
+							            <h4 class="panel-title">
+							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+							                <span class="fa fa-angle-up"></span> Is there parking?
+							              </a>
+							            </h4>
+							          </div>
+							          <div id="collapseThree" class="panel-collapse collapse">
+							            <div class="panel-body">
+							              We always try to encourage using human powered or public transportation. Parking is not available at the venue. Parking is located at the Guardian and overflow at Trinity United Church. Ultramar and Tim Hortons parking lots are for customers only. Please respect others property and follow local laws/signs. Lock your doors and hide or remove any valuables from your vehicle.
+							            </div>
+							          </div>
+							        </div>
+									
+							    </div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End FAQ -->
 
 		<!-- Start Contact -->
 		<section id="mu-contact">
@@ -740,7 +465,7 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-heading-title">Contact Us</h2>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+								<p>Have a question, want to help, or just wanna say hi.</p>
 							</div>
 
 							<!-- Start Contact Content -->
@@ -750,16 +475,20 @@
 								<div class="col-md-12">
 									<div class="mu-contact-form-area">
 										<div id="form-messages"></div>
-											<form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+											<form id="ajax-contact" method="post" action="mail/contactmail.php" class="mu-contact-form">
 												<div class="form-group">                
 													<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
 												</div>
-												<div class="form-group">                
+												<div class="form-group">
 													<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
-												</div>              
+												</div>
+												<div class="form-group">
+													<input type="text" class="form-control" placeholder="Subject" id="subject" name="subject" required>
+												</div>
 												<div class="form-group">
 													<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
 												</div>
+												<div class="g-recaptcha form-group" data-sitekey="6LcROBkTAAAAAHtFJb_MxYAlRdO2Xe3s-_VajuZE"></div>
 												<button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
 								            </form>
 										</div>
@@ -775,12 +504,12 @@
 		<!-- End Contact -->
 
 	</main>
-	
-	<!-- End main content -->	
-			
-			
+
+	<!-- End main content -->
+
+
 	<!-- Start footer -->
-	<footer id="mu-footer" role="contentinfo">
+	<footer id="mu-footer">
 			<div class="container">
 				<div class="mu-footer-area">
 					<div class="mu-footer-top">
@@ -792,6 +521,7 @@
 					</div>
 					<div class="mu-footer-bottom">
 						<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="http://blttoday.ca">BLT Today</a>. All right reserved.</p>
+						<p class="mu-copy-right">Website domain, hosting, and support donated by <a href="http://ben.hovinga.ca/?utm_source=BLT%20Today&utm_medium=footer&utm_campaign=donated_website">Ben Hovinga</a></p>
 					</div>
 				</div>
 			</div>
@@ -799,27 +529,23 @@
 	</footer>
 	<!-- End footer -->
 
-	
-	
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 	<!-- Slick slider -->
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <!-- Event Counter -->
     <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
     <!-- Ajax contact form  -->
     <script type="text/javascript" src="assets/js/app.js"></script>
-  
-       
-	
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<!-- ReCaptcha -->
+	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+	<!-- MailChimp pop-up -->
+	<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+	<script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"e1a66bfc92b7d16f7058abc13","lid":"c735513cc4"}) })</script>
 
-	
-	
-    
   </body>
 </html>
