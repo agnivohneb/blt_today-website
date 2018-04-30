@@ -12,7 +12,6 @@ HTML5 Shiv :
 	License : The MIT License
 	License URL : https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md
 
-
 Slick SLider :
 	Website URL : http://kenwheeler.github.io/slick/
 	License : The MIT License 
@@ -28,12 +27,10 @@ The Final Countdown :
 	License : MIT 
 	License URL : https://github.com/hilios/jQuery.countdown/blob/master/LICENSE.md
 
-
 Font Awesome :
 	Website URL : http://fortawesome.github.io/Font-Awesome/
 	License : MIT 
 	License URL : http://fortawesome.github.io/Font-Awesome/license/
-
 
 Google Fonts : 
 
@@ -46,11 +43,3 @@ Google Fonts :
 	Website URL : https://fonts.google.com/specimen/Open+Sans
 	License : SIL Open Font License, Version 1.1.
 	License URL : http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-
-	
-	
-
- 			
-	
-
-

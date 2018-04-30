@@ -1,3 +1,13 @@
-mailsetup.php
-recaptchasecret.php
+# Configuration Files
+/config/
+
+# Server update
+/_gitupdater/
+
+# Composer Files
+composer.phar
+composer.lock
+/vendor/
+
+# System Files
 desktop.ini
