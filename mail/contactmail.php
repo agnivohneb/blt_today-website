@@ -1,9 +1,21 @@
 <?php
 
-//Import the PHPMailer class into the global namespace
+// Deal with errors
+function handleError($errno,$errstr,$error_file,$error_line) {
+	http_response_code(500);
+	echo "Error: [$errno] $errstr - $error_file:$error_line";
+	die();
+}
+set_error_handler("handleError");
+
+//Import the PHPMailer and ReCaptcha class into the global namespace
 use PHPMailer\PHPMailer\PHPMailer;
 use ReCaptcha\ReCaptcha;
-require '../../vendor/autoload.php';
+require '../vendor/autoload.php';
+
+// Import mail settings and secrets
+require '../config/mailsetup.php';
+require '../config/recaptchasecret.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //Apply some basic validation and filtering to the subject
@@ -19,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
 		// Set a 400 (bad request) response code and exit.
 		http_response_code(400);
-		echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+		echo "Oops! There was a problem with your submission. Please complete the form and try again. [MESSAGE]";
 		exit;
     }
     //Apply some basic validation and filtering to the name
@@ -29,46 +41,33 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $name = '';
     }
-    //Validate to address
-    //Never allow arbitrary input for the 'to' address as it will turn your form into a spam gateway!
-    //Substitute appropriate addresses from your own domain, or simply use a single, fixed address
-    if (array_key_exists('to', $_POST) and $_POST['to'] == 'list') {
-        $to = array(
-			'agnivohneb@gmail.com' => 'Ben Hovinga',
-			'ben@hovinga.ca' => 'Ben Hovinga'
-		);
-    } else {
-        $to = array('mail@blttoday.ca' => 'BLT Today');
-    }
     //Make sure the address they provided is valid before trying to use it
     if (array_key_exists('email', $_POST) and PHPMailer::validateAddress($_POST['email'])) {
         $email = $_POST['email'];
     } else {
 		// Set a 400 (bad request) response code and exit.
 		http_response_code(400);
-		echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+		echo "Oops! There was a problem with your submission. Please complete the form and try again. [EMAIL]";
 		exit;
     }
 	// Validate ReCaptcha
 	if (array_key_exists('g-recaptcha-response', $_POST)) {
-		include 'recaptchasecret.php';
 		$recaptcha = new ReCaptcha($reCaptchaSecret);
 		$resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 		if (!$resp->isSuccess()){
 			// Set a 400 (bad request) response code and exit.
 			http_response_code(400);
-			echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+			echo "Oops! There was a problem with your submission. Please complete the form and try again. [CAPTCHA FAILED]";
 			exit;
 		}
 	} else {
 		// Set a 400 (bad request) response code and exit.
 		http_response_code(400);
-		echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+		echo "Oops! There was a problem with your submission. Please complete the form and try again. [CAPTCHA MISSING]";
 		exit;
 	}
-	
+
 	// Setup mailer
-	include 'mailsetup.php';
 	$mail = new PHPMailer;
 	$mail->isSMTP();
 	$mail->Host = $mailsetup['host'];
@@ -78,22 +77,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$mail->Password = $mailsetup['password'];
 	$mail->CharSet = 'utf-8';
 	$mail->setFrom($mailsetup['fromaddress'], (empty($name) ? 'Contact form' : $name));
-	
-	// Setup mailing list
-	foreach ($to as $toemail => $toname){
-		$mail->addAddress($toemail, $toname);
-	}
-	
+    $mail->DKIM_domain = 'blttoday.ca';
+    $mail->DKIM_private = '../config/dkim_private.pem';
+    $mail->DKIM_selector = 'phpmailer';
+    $mail->DKIM_passphrase = '';
+    $mail->DKIM_identity = $mail->From;
+	$mail->addAddress('mail@blttoday.ca', 'BLT Today');
+    
 	// Setup users info
 	$mail->addReplyTo($email, $name);
 	$mail->Subject = 'Contact form: ' . $subject;
 	$mail->Body = "Contact form submission\n\n" . $query;
-	
+
 	// Send the message
 	if (!$mail->send()) {
 		// Set a 500 (internal server error) response code.
 		http_response_code(500);
-		echo "Oops! Something went wrong and we couldn't send your message.";
+		echo "Oops! Something went wrong and we couldn't send your message. [500]";
 	} else {
 		// Set a 200 (okay) response code.
 		http_response_code(200);
@@ -104,8 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 else {
 	// Not a POST request, set a 403 (forbidden) response code.
 	http_response_code(403);
-	echo "There was a problem with your submission, please try again.";
+	echo "There was a problem with your submission, please try again. [403]";
 }
 
  ?>
- 
