@@ -83,11 +83,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->DKIM_passphrase = '';
     $mail->DKIM_identity = $mail->From;
 	$mail->addAddress('mail@blttoday.ca', 'BLT Today');
-    
+
 	// Setup users info
 	$mail->addReplyTo($email, $name);
-	$mail->Subject = 'Contact form: ' . $subject;
-	$mail->Body = "Contact form submission\n\n" . $query;
+	$mail->Subject = $subject;
+	$mail->Body = "<p>New message from " . $name . " &lt;" . $email . "&gt;</p>\n\n<p>Message</p>\n<pre>" . $query . "</pre>\n\n<p style='font-style: italic;'>Message sent from the contact form at <a href='http://www.blttoday.ca'>www.blttoday.ca</a>.</p>";
 
 	// Send the message
 	if (!$mail->send()) {
