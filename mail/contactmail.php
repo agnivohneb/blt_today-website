@@ -87,7 +87,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	// Setup users info
 	$mail->addReplyTo($email, $name);
 	$mail->Subject = $subject;
-	$mail->Body = "<p>New message from " . $name . " &lt;" . $email . "&gt;</p>\n\n<p>Message</p>\n<pre>" . $query . "</pre>\n\n<p style='font-style: italic;'>Message sent from the contact form at <a href='http://www.blttoday.ca'>www.blttoday.ca</a>.</p>";
+	$mail->Body = "New message from " . $name . " <" . $email . ">\n\n" . $query . "\n\nMessage sent from the contact form at www.blttoday.ca.";
 
 	// Send the message
 	if (!$mail->send()) {
