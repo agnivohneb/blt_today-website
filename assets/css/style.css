@@ -1082,7 +1082,8 @@ button:focus {
 }
 
 .mu-sponsors-single {
-	background: #eee;
+	text-align: center;
+	background: #fff;
 	display: inline;
 	float: left;
 	margin-top: 10px;
